@@ -46,3 +46,6 @@
         "display_name": "examplename",
         "country": "iso code"(2 character)
     }]
+    
+    
+  it controls display_name that you entered exist or not. if it exists, response returns bad request. if post and put methods are successfull, response returns ok status. Code ignores the uppercase and lowercase for country and display_name.
